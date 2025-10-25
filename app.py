@@ -37,7 +37,8 @@ def respond(
             token = choices[0].delta.content
 
         response += token
-        yield response "ben spaceturk aı yım
+        yield response("ben Spaceturk AI'yım")
+
         "
 
 
